@@ -198,6 +198,11 @@
       "serviceEndpoint": "https://github.com/nvo987"
 	},
 	{
+  "id": "#did-metadata",
+  "type": "DIDMetadataService",
+  "serviceEndpoint": "https://identity.nvo987.us/did-metadata.json"
+	},
+	{
       "id": "#academia",
       "type": "AcademiaService",
       "serviceEndpoint": "https://independent.academia.edu/nvo987"
