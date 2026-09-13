@@ -1,0 +1,4 @@
+Contact: mailto:nvo@nvo987.us
+Canonical: https://identity.nvo987.us/.well-known/security.txt
+Policy: https://nvo987.us/legal-information.html
+Preferred-Languages: en, fr, hu
