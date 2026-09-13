@@ -1,0 +1,36 @@
+NVO987 Identity
+https://identity.nvo987.us/
+
+NVO987 is an independent digital identity and research infrastructure.
+
+Primary identity:
+Nicholas Van-Orton
+
+Identity infrastructure:
+https://identity.nvo987.us/.well-known/did.json
+https://identity.nvo987.us/sha-256-did.txt
+
+Research identifiers:
+ORCID: https://orcid.org/0009-0007-4628-1871
+ISNI: https://isni.org/isni/0000000529640885
+
+Primary NVO987 layer:
+https://nvo987.us/
+
+Institutional layer:
+https://nvo987.fr/
+
+Open decentralized web infrastructure:
+https://www.nexarium.us/
+
+Independent publishing:
+https://delaunaybook.eu/
+
+Online bookstore:
+https://books.nvo987.us/
+
+Publication:
+https://delaunaycolor.us/
+
+Purpose:
+This site provides machine-readable and human-readable information concerning the identity, research activity, institutional connections, publishing activity, and digital infrastructure associated with NVO987 and Nicholas Van-Orton.
