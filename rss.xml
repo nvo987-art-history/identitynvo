@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>NVO987 Identity</title>
+    <link>https://identity.nvo987.us/</link>
+    <description>Identity and decentralized digital presence of NVO987 and Nicholas Van-Orton.</description>
+    <language>en</language>
+
+    <item>
+      <title>NVO987 Identity</title>
+      <link>https://identity.nvo987.us/</link>
+      <guid isPermaLink="true">https://identity.nvo987.us/</guid>
+      <description>Identity and decentralized digital presence of NVO987 and Nicholas Van-Orton.</description>
+    </item>
+  </channel>
+</rss>
