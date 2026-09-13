@@ -1283,7 +1283,160 @@
         transition: none !important;
       }
     }
+/* =========================================================
+   PUBLIC KEY
+   ========================================================= */
 
+.public-key {
+  margin-top: 48px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.public-key-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+
+  padding: 20px 0;
+
+  border-bottom: 1px solid var(--line-light);
+}
+
+.public-key-label {
+  color: var(--orange);
+
+  font-size: 12px;
+  font-weight: 700;
+
+  letter-spacing: .2em;
+
+  text-transform: uppercase;
+}
+
+.public-key-format {
+  color: var(--muted);
+
+  font-size: 11px;
+  font-weight: 600;
+
+  letter-spacing: .12em;
+
+  text-transform: uppercase;
+}
+
+.public-key-body {
+  position: relative;
+
+  padding: 28px 30px;
+
+  background: rgba(23, 25, 24, .045);
+
+  overflow-x: auto;
+}
+
+.public-key-body pre {
+  margin: 0;
+
+  color: var(--ink-soft);
+
+  font-family:
+    "SFMono-Regular",
+    "Cascadia Code",
+    "Roboto Mono",
+    Consolas,
+    monospace;
+
+  font-size: 13px;
+
+  line-height: 1.8;
+
+  white-space: pre;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+.public-key-body .pem-marker {
+  color: var(--orange);
+
+  font-weight: 600;
+}
+
+.public-key-body .pem-content {
+  color: var(--ink);
+}
+
+.public-key-footer {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 25px;
+
+  padding: 17px 0;
+
+  color: var(--muted);
+
+  font-size: 11px;
+  font-weight: 600;
+
+  letter-spacing: .08em;
+
+  text-transform: uppercase;
+}
+
+.public-key-link {
+  color: var(--ink);
+
+  transition: color .3s ease;
+}
+
+.public-key-link:hover {
+  color: var(--orange);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 720px) {
+
+  .public-key {
+    margin-top: 38px;
+  }
+
+  .public-key-header {
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+    padding: 17px 0;
+  }
+
+  .public-key-body {
+    padding: 22px 18px;
+  }
+
+  .public-key-body pre {
+    font-size: 11px;
+
+    line-height: 1.7;
+  }
+
+  .public-key-footer {
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 9px;
+
+    padding: 15px 0;
+  }
+
+}
   </style>
 </head>
 
