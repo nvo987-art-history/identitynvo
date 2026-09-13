@@ -1,0 +1,76 @@
+{
+  "@context": [
+    "https://schema.org/",
+    "https://identity.nvo987.us/context/v1"
+  ],
+  "@id": "https://nvo987.us/#person",
+  "@type": "Person",
+
+  "name": "Nicholas Van-Orton",
+
+  "description": "Independent researcher working with modern and contemporary visual culture, art history, and culture. His work involves research, writing, and cultural projects.",
+
+  "identifier": [
+    {
+      "type": "DID",
+      "value": "did:web:identity.nvo987.us"
+    },
+    {
+      "type": "ORCID",
+      "value": "https://orcid.org/0009-0007-4628-1871"
+    },
+    {
+      "type": "ISNI",
+      "value": "https://isni.org/isni/0000000529640885"
+    }
+  ],
+
+  "sameAs": [
+    "https://nvo987.us/",
+    "https://identity.nvo987.us/",
+    "https://independent.academia.edu/nvo987",
+    "https://www.linkedin.com/in/nvo987/",
+    "https://osf.io/user/t8bek",
+    "https://profile.hcommons.org/members/nicholasvanorton/",
+    "https://www.webofscience.com/wos/author/record/PDY-1682-2025",
+    "https://www.researchgate.net/profile/Nicholas-Van-Orton",
+    "https://www.lens.org/lens/profile/nicholas-van-orton/",
+    "https://openalex.org/authors/A5120949417",
+    "https://cv.hal.science/van-orton-nicholas",
+    "https://scholar.google.com/citations?user=iRM-GNQAAAAJ&hl",
+    "https://archive.org/details/@nicholas_van-orton",
+    "https://bsky.app/profile/nvo987.us",
+    "https://gravatar.com/nvo987",
+    "https://github.com/nvo987",
+    "https://github.com/nvo987-art-history",
+    "https://gitlab.com/nvo987-art-history"
+  ],
+
+  "memberOf": {
+    "@id": "https://nvo987.fr/",
+    "@type": "Organization",
+    "name": "NVO987 – Culture Visuelle Moderne et Contemporaine"
+  },
+
+  "role": "President of NVO987 Association",
+
+  "researchProfiles": [
+    "https://orcid.org/0009-0007-4628-1871",
+    "https://isni.org/isni/0000000529640885",
+    "https://openalex.org/authors/A5120949417",
+    "https://cv.hal.science/van-orton-nicholas",
+    "https://www.researchgate.net/profile/Nicholas-Van-Orton"
+  ],
+
+  "web3Identities": [
+    "did:key:z6MkmmbpWcJvqcPLfLryetykAH3Rb6VcCymCPpuaJgNFSvyo",
+    "did:pkh:eip155:1:0x4778d725393c2cc4fdd033c8f8a14ac4a8034414",
+    "did:ethr:mainnet:0x4778d725393c2cc4fdd033c8f8a14ac4a8034414",
+    "did:pkh:eip155:1:0xca58fbc898c9467a91e60471f307ec3c1e319aad",
+    "did:ethr:mainnet:0xca58fbc898c9467a91e60471f307ec3c1e319aad"
+  ],
+
+  "subjectOf": {
+    "@id": "did:web:identity.nvo987.us"
+  }
+}
