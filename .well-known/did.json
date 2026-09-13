@@ -191,7 +191,7 @@
     {
       "id": "#person",
       "type": "PersonService",
-      "serviceEndpoint": "https://nvo987.us/#person"
+      "serviceEndpoint": "https://person.nvo987.us" 
     },
 	{
       "id": "#github",
