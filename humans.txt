@@ -1,0 +1,31 @@
+/* TEAM */
+
+Name: Nicholas Van-Orton
+Role: Independent researcher / President of the association
+Website: https://nvo987.us/
+Identity: https://identity.nvo987.us/
+
+/* ORGANIZATION */
+
+Name: NVO987
+Website: https://nvo987.us/
+
+Institutional Layer: https://nvo987.fr/
+
+/* IDENTITY */
+
+DID Document: https://identity.nvo987.us/.well-known/did.json
+SHA-256: https://identity.nvo987.us/sha-256-did.txt
+
+ORCID: https://orcid.org/0009-0007-4628-1871
+ISNI: https://isni.org/isni/0000000529640885
+
+/* INFRASTRUCTURE */
+
+NEXARIUM: https://www.nexarium.us/
+
+/* PUBLISHING */
+
+Delaunay Book: https://delaunaybook.eu/
+NVO987 Bookstore: https://books.nvo987.us/
+Delaunay Color: https://delaunaycolor.us/
