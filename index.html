@@ -1,0 +1,2122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Identity | NVO987 | Nicholas Van-Orton</title>
+
+  <meta name="description" content="Identity and decentralized digital presence of NVO987 and Nicholas Van-Orton.">
+  <meta name="keywords" content="NVO987, Nicholas Van-Orton, Identity, decentralized identity, digital identity, DID, DID Document, ORCID, ISNI, visual culture, contemporary art, modern art, art history, cultural research, cultural studies, digital culture, decentralized web, NEXARIUM">
+  <meta name="author" content="Nicholas Van-Orton">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#171918">
+
+  <link rel="canonical" href="https://identity.nvo987.us/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+
+  <!-- Open Graph -->
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Identity | NVO987 | Nicholas Van-Orton">
+  <meta property="og:description" content="Identity and decentralized digital presence of NVO987 and Nicholas Van-Orton.">
+  <meta property="og:url" content="https://identity.nvo987.us/">
+  <meta property="og:site_name" content="NVO987">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://identity.nvo987.us/og-image.jpg">
+
+  <!-- Twitter / X -->
+
+  <meta name="twitter:image" content="https://identity.nvo987.us/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Identity | NVO987 | Nicholas Van-Orton">
+  <meta name="twitter:description" content="Identity and decentralized digital presence of NVO987 and Nicholas Van-Orton.">
+  <meta name="twitter:url" content="https://identity.nvo987.us/">
+
+  <!-- Apple Touch Icons -->
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+  <link rel="manifest" href="/manifest.json">
+
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <style>
+
+    /* =========================================================
+       NVO987 — IDENTITY / 987
+       ========================================================= */
+
+    :root {
+      --bg: #f3f1eb;
+      --bg-alt: #ebe8df;
+
+      --ink: #171918;
+      --ink-soft: #3f423f;
+
+      --muted: #70736d;
+      --light-muted: #999b94;
+
+      --orange: #d99b32;
+      --orange-light: #efbd63;
+      --gold: #c28e38;
+
+      --white: #faf9f5;
+
+      --line: rgba(23, 25, 24, .15);
+      --line-light: rgba(23, 25, 24, .09);
+
+      --serif: "Playfair Display", Georgia, serif;
+      --sans: "Inter", Arial, sans-serif;
+
+      --max-width: 1480px;
+
+      --ease: cubic-bezier(.22, .61, .36, 1);
+    }
+
+
+    /* =========================================================
+       RESET
+       ========================================================= */
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+
+      background: var(--bg);
+      color: var(--ink);
+
+      font-family: var(--sans);
+
+      font-size: 17px;
+
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    ::selection {
+      background: var(--orange);
+      color: var(--ink);
+    }
+
+
+    /* =========================================================
+       GLOBAL
+       ========================================================= */
+
+    .container {
+      width: min(
+        calc(100% - 80px),
+        var(--max-width)
+      );
+
+      margin: 0 auto;
+    }
+
+    .rule {
+      width: 100%;
+      height: 1px;
+      background: var(--line);
+    }
+
+
+    /* =========================================================
+       HEADER
+       ========================================================= */
+
+    .site-header {
+      padding-top: 30px;
+    }
+
+    .header-row {
+      display: grid;
+
+      grid-template-columns: 1fr auto 1fr;
+
+      align-items: center;
+
+      min-height: 62px;
+    }
+
+
+    /* BRAND */
+
+    .brand {
+      display: inline-flex;
+
+      align-items: center;
+
+      gap: 18px;
+
+      width: fit-content;
+    }
+
+    .brand-mark {
+      position: relative;
+
+      width: 34px;
+      height: 34px;
+
+      border: 1px solid var(--ink);
+
+      transform: rotate(45deg);
+
+      transition:
+        transform .7s var(--ease),
+        border-color .35s ease;
+    }
+
+    .brand-mark::before {
+      content: "";
+
+      position: absolute;
+
+      top: 7px;
+      right: 7px;
+      bottom: 7px;
+      left: 7px;
+
+      border: 2px solid var(--orange);
+    }
+
+    .brand:hover .brand-mark {
+      border-color: var(--orange);
+
+      transform: rotate(135deg);
+    }
+
+    .brand-title {
+      font-size: 14px;
+      font-weight: 700;
+
+      letter-spacing: .24em;
+
+      text-transform: uppercase;
+    }
+
+
+    /* =========================================================
+       NAVIGATION
+       ========================================================= */
+
+    .main-nav {
+      display: flex;
+
+      align-items: center;
+
+      gap: 20px;
+    }
+
+    .main-nav a {
+      position: relative;
+
+      display: inline-flex;
+
+      align-items: center;
+      justify-content: center;
+
+      min-height: 44px;
+
+      padding: 8px 18px;
+
+      color: var(--ink);
+
+      font-size: 14px;
+      font-weight: 600;
+
+      letter-spacing: .14em;
+
+      text-transform: uppercase;
+
+      border: 1px solid transparent;
+
+      transition:
+        color .3s ease,
+        background .3s ease,
+        border-color .3s ease;
+    }
+
+    .main-nav a:hover {
+      color: var(--ink);
+
+      border-color: var(--orange);
+
+      background: rgba(217, 155, 50, .12);
+    }
+
+    .main-nav a.active {
+      color: var(--ink);
+
+      border-color: var(--orange);
+
+      background: rgba(217, 155, 50, .10);
+    }
+
+    .main-nav a.active::before {
+      content: "";
+
+      width: 6px;
+      height: 6px;
+
+      margin-right: 10px;
+
+      border-radius: 50%;
+
+      background: var(--orange);
+    }
+
+
+    /* HEADER CONTEXT */
+
+    .header-context {
+      justify-self: end;
+
+      color: var(--muted);
+
+      font-size: 12px;
+      font-weight: 600;
+
+      letter-spacing: .19em;
+
+      text-transform: uppercase;
+    }
+
+    .header-rule {
+      margin-top: 28px;
+    }
+
+
+    /* =========================================================
+       HERO
+       ========================================================= */
+
+    .hero {
+      position: relative;
+
+      min-height: 650px;
+
+      display: flex;
+
+      align-items: center;
+
+      overflow: hidden;
+    }
+
+    .hero-watermark {
+      position: absolute;
+
+      right: -20px;
+      bottom: -30px;
+
+      color: rgba(217, 155, 50, .055);
+
+      font-family: var(--sans);
+
+      font-size: clamp(
+        250px,
+        29vw,
+        500px
+      );
+
+      font-weight: 700;
+
+      letter-spacing: -.12em;
+      line-height: .7;
+
+      pointer-events: none;
+      user-select: none;
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+
+      display: grid;
+
+      grid-template-columns: 120px 1fr;
+
+      gap: 65px;
+
+      width: 100%;
+    }
+
+
+    /* VERTICAL LABEL */
+
+    .hero-side {
+      align-self: start;
+
+      margin-top: 15px;
+
+      color: var(--muted);
+
+      font-size: 13px;
+      font-weight: 600;
+
+      letter-spacing: .18em;
+
+      text-transform: uppercase;
+
+      writing-mode: vertical-rl;
+
+      transform: rotate(180deg);
+    }
+
+    .hero-side::before {
+      content: "";
+
+      display: block;
+
+      width: 2px;
+      height: 58px;
+
+      margin: 0 auto 20px;
+
+      background: var(--orange);
+    }
+
+
+    /* HERO CONTENT */
+
+    .hero-content {
+      max-width: 1120px;
+    }
+
+    .hero-kicker {
+      display: flex;
+
+      align-items: center;
+
+      gap: 18px;
+
+      margin-bottom: 32px;
+
+      color: var(--orange);
+
+      font-size: 13px;
+      font-weight: 700;
+
+      letter-spacing: .21em;
+
+      text-transform: uppercase;
+    }
+
+    .hero-kicker::before {
+      content: "";
+
+      width: 55px;
+      height: 2px;
+
+      background: var(--orange);
+    }
+
+    .hero-title {
+      margin: 0;
+
+      font-family: var(--serif);
+
+      font-size: clamp(
+        76px,
+        9.2vw,
+        148px
+      );
+
+      font-weight: 400;
+
+      letter-spacing: -.065em;
+
+      line-height: .86;
+    }
+
+    .hero-title span {
+      display: block;
+    }
+
+    .hero-title .gold {
+      color: var(--orange);
+
+      font-style: italic;
+    }
+
+    .hero-description {
+      max-width: 790px;
+
+      margin: 48px 0 0;
+
+      color: var(--ink-soft);
+
+      font-size: 20px;
+      font-weight: 400;
+
+      letter-spacing: .005em;
+
+      line-height: 1.72;
+    }
+
+
+    /* =========================================================
+       IDENTITY SECTIONS
+       ========================================================= */
+
+    .identity-section {
+      border-top: 1px solid var(--line);
+    }
+
+    .identity-section:nth-of-type(even) {
+      background: rgba(255, 255, 255, .18);
+    }
+
+    .section-inner {
+      display: grid;
+
+      grid-template-columns: 120px 1fr;
+
+      gap: 65px;
+
+      padding: 105px 0 115px;
+    }
+
+
+    /* SECTION NUMBER */
+
+    .section-number {
+      align-self: start;
+
+      padding-top: 7px;
+
+      color: var(--orange);
+
+      font-size: 14px;
+      font-weight: 700;
+
+      letter-spacing: .18em;
+
+      writing-mode: vertical-rl;
+
+      transform: rotate(180deg);
+    }
+
+    .section-number span {
+      color: var(--muted);
+    }
+
+
+    /* SECTION CONTENT */
+
+    .section-content {
+      max-width: 1120px;
+    }
+
+    .section-kicker {
+      margin-bottom: 23px;
+
+      color: var(--orange);
+
+      font-size: 13px;
+      font-weight: 700;
+
+      letter-spacing: .2em;
+
+      text-transform: uppercase;
+    }
+
+    .section-title {
+      margin: 0;
+
+      font-family: var(--serif);
+
+      font-size: clamp(
+        58px,
+        6.1vw,
+        96px
+      );
+
+      font-weight: 400;
+
+      letter-spacing: -.055em;
+
+      line-height: .95;
+    }
+
+    .section-title em {
+      color: var(--orange);
+
+      font-style: italic;
+    }
+
+    .section-description {
+      max-width: 800px;
+
+      margin: 31px 0 0;
+
+      color: var(--ink-soft);
+
+      font-size: 18px;
+      font-weight: 400;
+
+      line-height: 1.78;
+    }
+
+
+    /* =========================================================
+       LINKS
+       ========================================================= */
+
+    .section-links {
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      margin-top: 50px;
+
+      border-top: 1px solid var(--line);
+    }
+
+    .identity-link {
+      position: relative;
+
+      display: grid;
+
+      grid-template-columns: 1fr auto;
+
+      align-items: center;
+
+      min-height: 108px;
+
+      padding: 0 25px 0 0;
+
+      border-bottom: 1px solid var(--line);
+
+      transition:
+        color .3s ease,
+        padding-left .5s var(--ease);
+    }
+
+    .identity-link:nth-child(odd) {
+      margin-right: 40px;
+    }
+
+    .identity-link:nth-child(even) {
+      padding-left: 40px;
+
+      border-left: 1px solid var(--line);
+    }
+
+    .identity-link::before {
+      content: "";
+
+      position: absolute;
+
+      left: 0;
+      bottom: -1px;
+
+      width: 0;
+      height: 3px;
+
+      background: var(--orange);
+
+      transition:
+        width .55s var(--ease);
+    }
+
+    .identity-link:hover {
+      color: var(--orange);
+
+      padding-left: 14px;
+    }
+
+    .identity-link:nth-child(even):hover {
+      padding-left: 54px;
+    }
+
+    .identity-link:hover::before {
+      width: 100%;
+    }
+
+    .link-info {
+      display: flex;
+
+      flex-direction: column;
+
+      gap: 8px;
+    }
+
+    .link-name {
+      font-family: var(--serif);
+
+      font-size: 26px;
+      font-weight: 400;
+
+      letter-spacing: -.01em;
+    }
+
+    .link-url {
+      color: var(--muted);
+
+      font-size: 12px;
+      font-weight: 600;
+
+      letter-spacing: .13em;
+
+      text-transform: uppercase;
+
+      transition: color .3s ease;
+    }
+
+    .identity-link:hover .link-url {
+      color: var(--orange);
+    }
+
+    .link-arrow {
+      color: var(--orange);
+
+      font-size: 29px;
+      font-weight: 300;
+
+      transition:
+        transform .5s var(--ease);
+    }
+
+    .identity-link:hover .link-arrow {
+      transform: translateX(10px);
+    }
+
+
+    /* =========================================================
+       FOOTER
+       ========================================================= */
+
+    .site-footer {
+      position: relative;
+
+      background: var(--ink);
+
+      color: var(--white);
+    }
+
+    .site-footer::before {
+      content: "";
+
+      position: absolute;
+
+      top: 0;
+      right: 0;
+
+      width: 38%;
+      height: 3px;
+
+      background: var(--orange);
+    }
+
+    .footer-main {
+      display: grid;
+
+      grid-template-columns: 1.2fr .8fr;
+
+      gap: 100px;
+
+      padding: 95px 0 75px;
+    }
+
+
+    /* FOOTER BRAND */
+
+    .footer-brand {
+      align-self: end;
+    }
+
+    .footer-title {
+      margin: 0;
+
+      font-family: var(--serif);
+
+      font-size: clamp(
+        82px,
+        10vw,
+        150px
+      );
+
+      font-weight: 400;
+
+      letter-spacing: -.07em;
+
+      line-height: .78;
+    }
+
+    .footer-subtitle {
+      margin: 35px 0 0;
+
+      color: var(--orange-light);
+
+      font-size: 13px;
+      font-weight: 600;
+
+      letter-spacing: .18em;
+
+      line-height: 1.8;
+
+      text-transform: uppercase;
+    }
+
+    .footer-name {
+      margin: 11px 0 0;
+
+      color: rgba(250, 249, 245, .62);
+
+      font-family: var(--serif);
+
+      font-size: 22px;
+
+      font-style: italic;
+    }
+
+
+    /* CONTACT */
+
+    .footer-contact {
+      align-self: end;
+
+      display: flex;
+
+      flex-direction: column;
+
+      align-items: flex-start;
+    }
+
+    .footer-contact-label {
+      margin-bottom: 25px;
+
+      color: var(--orange);
+
+      font-size: 12px;
+      font-weight: 700;
+
+      letter-spacing: .2em;
+
+      text-transform: uppercase;
+    }
+
+    .footer-link {
+      position: relative;
+
+      margin-bottom: 18px;
+
+      color: var(--white);
+
+      font-size: 18px;
+      font-weight: 400;
+
+      letter-spacing: .01em;
+    }
+
+    .footer-link::after {
+      content: "";
+
+      position: absolute;
+
+      right: 0;
+      bottom: -6px;
+      left: 0;
+
+      height: 2px;
+
+      background: var(--orange);
+
+      transform: scaleX(0);
+
+      transform-origin: right;
+
+      transition:
+        transform .5s var(--ease);
+    }
+
+    .footer-link:hover {
+      color: var(--orange-light);
+    }
+
+    .footer-link:hover::after {
+      transform: scaleX(1);
+
+      transform-origin: left;
+    }
+
+    .footer-site {
+      margin-top: 14px;
+
+      color: rgba(250, 249, 245, .65);
+    }
+
+
+    /* FOOTER BOTTOM */
+
+    .footer-bottom {
+      display: flex;
+
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 40px;
+
+      padding: 24px 0 28px;
+
+      border-top: 1px solid rgba(250, 249, 245, .15);
+
+      color: rgba(250, 249, 245, .48);
+
+      font-size: 12px;
+      font-weight: 500;
+
+      letter-spacing: .12em;
+
+      text-transform: uppercase;
+    }
+
+    .footer-bottom a {
+      color: rgba(250, 249, 245, .48);
+
+      transition: color .3s ease;
+    }
+
+    .footer-bottom a:hover {
+      color: var(--orange-light);
+    }
+
+
+    /* =========================================================
+       TABLET
+       ========================================================= */
+
+    @media (max-width: 1050px) {
+
+      .container {
+        width: min(
+          calc(100% - 56px),
+          var(--max-width)
+        );
+      }
+
+      .header-row {
+        grid-template-columns: auto 1fr;
+      }
+
+      .main-nav {
+        justify-self: end;
+
+        gap: 8px;
+      }
+
+      .header-context {
+        display: none;
+      }
+
+      .hero-grid,
+      .section-inner {
+        grid-template-columns: 70px 1fr;
+
+        gap: 40px;
+      }
+
+      .section-links {
+        grid-template-columns: 1fr;
+      }
+
+      .identity-link:nth-child(odd),
+      .identity-link:nth-child(even) {
+        margin-right: 0;
+
+        padding-left: 0;
+
+        border-left: 0;
+      }
+
+      .identity-link:nth-child(even):hover {
+        padding-left: 14px;
+      }
+
+      .footer-main {
+        gap: 60px;
+      }
+    }
+
+
+    /* =========================================================
+       MOBILE
+       ========================================================= */
+
+    @media (max-width: 720px) {
+
+      .container {
+        width: calc(100% - 40px);
+      }
+
+      .site-header {
+        padding-top: 20px;
+      }
+
+      .header-row {
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+
+        gap: 16px;
+      }
+
+      .brand {
+        gap: 14px;
+      }
+
+      .brand-mark {
+        width: 29px;
+        height: 29px;
+      }
+
+      .brand-mark::before {
+        top: 6px;
+        right: 6px;
+        bottom: 6px;
+        left: 6px;
+      }
+
+      .brand-title {
+        font-size: 12px;
+      }
+
+      .main-nav {
+        gap: 4px;
+      }
+
+      .main-nav a {
+        min-height: 42px;
+
+        padding: 7px 13px;
+
+        font-size: 12px;
+
+        letter-spacing: .11em;
+      }
+
+      .header-rule {
+        margin-top: 20px;
+      }
+
+
+      /* HERO */
+
+      .hero {
+        min-height: auto;
+
+        padding: 70px 0 75px;
+      }
+
+      .hero-watermark {
+        right: -18vw;
+        bottom: 5vw;
+
+        font-size: 50vw;
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+
+        gap: 27px;
+      }
+
+      .hero-side {
+        writing-mode: initial;
+
+        transform: none;
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 13px;
+
+        margin-top: 0;
+      }
+
+      .hero-side::before {
+        width: 42px;
+        height: 2px;
+
+        margin: 0;
+      }
+
+      .hero-kicker {
+        margin-bottom: 24px;
+
+        font-size: 12px;
+      }
+
+      .hero-title {
+        font-size: clamp(
+          58px,
+          16vw,
+          88px
+        );
+      }
+
+      .hero-description {
+        margin-top: 34px;
+
+        font-size: 17px;
+
+        line-height: 1.72;
+      }
+
+
+      /* SECTIONS */
+
+      .section-inner {
+        grid-template-columns: 1fr;
+
+        gap: 22px;
+
+        padding: 72px 0 78px;
+      }
+
+      .section-number {
+        writing-mode: initial;
+
+        transform: none;
+
+        padding-top: 0;
+
+        font-size: 13px;
+      }
+
+      .section-kicker {
+        margin-bottom: 19px;
+
+        font-size: 12px;
+      }
+
+      .section-title {
+        font-size: clamp(
+          48px,
+          13vw,
+          72px
+        );
+      }
+
+      .section-description {
+        margin-top: 25px;
+
+        font-size: 17px;
+
+        line-height: 1.75;
+      }
+
+      .section-links {
+        margin-top: 38px;
+      }
+
+      .identity-link {
+        min-height: 92px;
+      }
+
+      .link-name {
+        font-size: 23px;
+      }
+
+      .link-url {
+        font-size: 11px;
+      }
+
+      .link-arrow {
+        font-size: 26px;
+      }
+
+
+      /* FOOTER */
+
+      .footer-main {
+        grid-template-columns: 1fr;
+
+        gap: 55px;
+
+        padding: 75px 0 60px;
+      }
+
+      .footer-title {
+        font-size: 78px;
+      }
+
+      .footer-subtitle {
+        font-size: 11px;
+      }
+
+      .footer-name {
+        font-size: 21px;
+      }
+
+      .footer-contact-label {
+        font-size: 11px;
+      }
+
+      .footer-link {
+        font-size: 17px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 10px;
+
+        font-size: 10px;
+      }
+    }
+
+
+    /* =========================================================
+       SMALL MOBILE
+       ========================================================= */
+
+    @media (max-width: 430px) {
+
+      .container {
+        width: calc(100% - 32px);
+      }
+
+      .brand-title {
+        font-size: 11px;
+      }
+
+      .main-nav a {
+        min-height: 40px;
+
+        padding: 7px 11px;
+
+        font-size: 11px;
+      }
+
+      .main-nav a.active::before {
+        width: 5px;
+        height: 5px;
+
+        margin-right: 7px;
+      }
+
+      .hero {
+        padding-top: 58px;
+        padding-bottom: 65px;
+      }
+
+      .hero-title {
+        font-size: 53px;
+      }
+
+      .hero-description {
+        font-size: 16px;
+      }
+
+      .section-title {
+        font-size: 45px;
+      }
+
+      .section-description {
+        font-size: 16px;
+      }
+
+      .link-name {
+        font-size: 21px;
+      }
+
+      .footer-title {
+        font-size: 67px;
+      }
+    }
+
+
+    /* =========================================================
+       REDUCED MOTION
+       ========================================================= */
+
+    @media (prefers-reduced-motion: reduce) {
+
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition: none !important;
+      }
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+
+  <!-- =======================================================
+       HEADER
+       ======================================================= -->
+
+  <header class="site-header">
+
+    <div class="container">
+
+      <div class="header-row">
+
+        <a
+          class="brand"
+          href="/index.html"
+          aria-label="NVO987 Identity"
+        >
+          <span
+            class="brand-mark"
+            aria-hidden="true"
+          ></span>
+
+          <span class="brand-title">
+            NVO987
+          </span>
+        </a>
+
+
+        <nav
+          class="main-nav"
+          aria-label="Main navigation"
+        >
+
+          <a href="https://social.media.nvo987.fr/">
+            Social Media
+          </a>
+
+          <a href="https://nvo987.us/about.html">
+            Curriculum Vitae
+          </a>
+
+        </nav>
+
+      </div>
+
+
+      <div class="rule header-rule"></div>
+
+    </div>
+
+  </header>
+
+
+  <!-- =======================================================
+       MAIN
+       ======================================================= -->
+
+  <main>
+
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+
+    <section class="hero">
+
+      <div
+        class="hero-watermark"
+        aria-hidden="true"
+      >
+        NVO
+      </div>
+
+
+      <div class="container hero-grid">
+
+
+        <div class="hero-side">
+          Decentralized Identifiers
+        </div>
+
+
+        <div class="hero-content">
+
+
+          <div class="hero-kicker">
+            Identity / Nicholas Van-Orton
+          </div>
+
+
+          <h1 class="hero-title">
+
+            <span>
+              Nicholas
+            </span>
+
+            <span>
+              Van-Orton
+            </span>
+
+          </h1>
+
+
+          <p class="hero-description">
+            As an independent researcher, I work with modern and contemporary visual culture, art history, and culture. I am the president of the association. My work involves research, writing, and cultural projects.
+          </p>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SECTION 01
+         ===================================================== -->
+
+    <section
+      class="identity-section"
+      id="section-01"
+    >
+
+      <div class="container section-inner">
+
+
+        <div class="section-number">
+          01 <span>/ 09</span>
+        </div>
+
+
+        <div class="section-content">
+
+          <div class="section-kicker">
+            DECENTRALIZED IDENTITY
+          </div>
+
+
+          <h2 class="section-title">
+            Identity<em>Document</em>
+          </h2>
+
+
+          <p class="section-description">
+            The DID Document is the machine-readable foundation of the decentralized digital identity of the NVO987 brand, Nicholas Van-Orton, and the association. It contains the identity identifier, public keys related to authentication, as well as service endpoints associated with the identity. The document is available in an open, standardized format and can be independently verified.
+          </p>
+
+
+          <div class="section-links">
+
+
+            <a
+              class="identity-link"
+              href="https://identity.nvo987.us/.well-known/did.json"
+            >
+
+              <span class="link-info">
+                <span class="link-name">DID Document</span>
+                <span class="link-url">did.json</span>
+              </span>
+
+              <span class="link-arrow">→</span>
+
+            </a>
+
+
+            <a
+              class="identity-link"
+              href="https://identity.nvo987.us/sha-256-did.txt"
+            >
+
+              <span class="link-info">
+                <span class="link-name">SHA-256 Hash</span>
+                <span class="link-url">sha-256-did.txt</span>
+              </span>
+
+              <span class="link-arrow">→</span>
+
+            </a>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SECTION 02
+         ===================================================== -->
+
+    <section
+      class="identity-section"
+      id="section-02"
+    >
+
+      <div class="container section-inner">
+
+
+        <div class="section-number">
+          02 <span>/ 09</span>
+        </div>
+
+
+        <div class="section-content">
+
+          <div class="section-kicker">
+            ASSOCIATION | INSTITUTION LAYER
+          </div>
+
+
+          <h2 class="section-title">
+            NVO987<em>Association</em>
+          </h2>
+
+
+          <p class="section-description">
+            The association implements cultural, artistic, educational and research projects in the fields of contemporary art, visual culture and cultural studies.
+
+            It organizes exhibitions, art projects, workshops, training programs, conferences and professional programs. In collaboration with artists, researchers, educators and cultural institutions, it supports the creation of new works, research and educational initiatives.
+
+            The cultural and artistic education of children and young people is a priority area of its work. Its programs include artistic activities, creative workshops, educational projects and community initiatives. Through the tools of contemporary art and visual culture, these develop creative and critical thinking, personal expression and the ability to cooperate.
+
+            The association also implements specific programs aimed at reducing cultural and social inequalities. It provides disadvantaged children and young people with opportunities to access culture and education, and supports initiatives addressing the consequences of child poverty.
+
+            Children's rights occupy an important place in its work. Through artistic, educational and community programs, the association contributes to raising awareness of children's rights and promoting their respect, paying particular attention to taking children's opinions into account and to their participation. In this field, it also cooperates with international organizations and professional partners.
+
+            The association also conducts research projects. In addition to contemporary art and culture, it examines issues related to the visual environment, education, social transformations and cultural participation. It makes the results of its research accessible through professional events, art projects and publications.
+
+            It develops national and international cooperation with artists, researchers, educators, cultural and educational institutions, associations, foundations, as well as national and international organizations. These forms of cooperation include joint projects, programs, research and professional initiatives.
+
+            The association also uses and develops digital technologies for cultural, artistic and educational purposes. It creates websites, software and online applications, as well as digital content that it produces and distributes.
+
+            As part of its activities, it publishes cultural and professional publications, books, journals and other publications. The association operates as a nonprofit organization and implements its programs in the service of culture, education, research, and the social and cultural equality of opportunity of children.
+          </p>
+
+
+          <div class="section-links">
+
+
+            <a
+              class="identity-link"
+              href="https://nvo987.fr"
+            >
+
+              <span class="link-info">
+                <span class="link-name">
+                  NVO987 - Culture Visuelle Moderne et Contemporaine
+                </span>
+
+                <span class="link-url">
+                  nvo987.fr
+                </span>
+              </span>
+
+              <span class="link-arrow">
+                →
+              </span>
+
+            </a>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SECTION 03
+         ===================================================== -->
+
+    <section
+      class="identity-section"
+      id="section-03"
+    >
+
+      <div class="container section-inner">
+
+
+        <div class="section-number">
+          03 <span>/ 09</span>
+        </div>
+
+
+        <div class="section-content">
+
+          <div class="section-kicker">
+            ORCID
+          </div>
+
+
+          <h2 class="section-title">
+            Researcher <em>Identifier</em>
+          </h2>
+
+
+          <p class="section-description">
+            ORCID provides a persistent digital identifier that distinguishes my research activities and publications from those of other researchers.
+          </p>
+
+
+          <div class="section-links">
+
+            <a
+              class="identity-link"
+              href="https://orcid.org/0009-0007-4628-1871"
+            >
+
+              <span class="link-info">
+                <span class="link-name">
+                  ORCID iD
+                </span>
+
+                <span class="link-url">
+                  0009-0007-4628-1871
+                </span>
+              </span>
+
+              <span class="link-arrow">
+                →
+              </span>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SECTION 04
+         ===================================================== -->
+
+    <section
+      class="identity-section"
+      id="section-04"
+    >
+
+      <div class="container section-inner">
+
+
+        <div class="section-number">
+          04 <span>/ 09</span>
+        </div>
+
+
+        <div class="section-content">
+
+
+          <div class="section-kicker">
+            ISNI
+          </div>
+
+
+          <h2 class="section-title">
+            International <em>Standard Name Identifier</em>
+          </h2>
+
+
+          <p class="section-description">
+            ISNI provides a persistent identifier for the public identity associated with my name and professional activities, allowing it to be distinguished from other identities.
+          </p>
+
+
+          <div class="section-links">
+
+            <a
+              class="identity-link"
+              href="https://isni.org/isni/0000000529640885"
+            >
+
+              <span class="link-info">
+                <span class="link-name">
+                  ISNI
+                </span>
+
+                <span class="link-url">
+                  ISNI identifier
+                </span>
+              </span>
+
+              <span class="link-arrow">
+                →
+              </span>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SECTION 05
+         ===================================================== -->
+
+    <section
+      class="identity-section"
+      id="section-05"
+    >
+
+      <div class="container section-inner">
+
+
+        <div class="section-number">
+          05 <span>/ 09</span>
+        </div>
+
+
+        <div class="section-content">
+
+
+          <div class="section-kicker">
+            NVO987
+          </div>
+
+
+          <h2 class="section-title">
+            NVO987 <em>Layer</em>
+          </h2>
+
+
+          <p class="section-description">
+            nvo987.us is the main digital layer of NVO987. It provides the primary space for my professional presence, projects, publications, and other activities connected to NVO987.
+          </p>
+
+
+          <div class="section-links">
+
+            <a
+              class="identity-link"
+              href="https://nvo987.us/"
+            >
+
+              <span class="link-info">
+                <span class="link-name">
+                  NVO987 Layer
+                </span>
+
+                <span class="link-url">
+                  nvo987.us
+                </span>
+              </span>
+
+              <span class="link-arrow">
+                →
+              </span>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SECTION 06
+         ===================================================== -->
+
+    <section
+      class="identity-section"
+      id="section-06"
+    >
+
+      <div class="container section-inner">
+
+
+        <div class="section-number">
+          06 <span>/ 09</span>
+        </div>
+
+
+        <div class="section-content">
+
+
+          <div class="section-kicker">
+            OPEN DECENTRALIZED WEB
+          </div>
+
+
+          <h2 class="section-title">
+            NEXARIUM <em>Infrastructure</em>
+          </h2>
+
+
+          <p class="section-description">
+            NEXARIUM is an open decentralized web infrastructure connecting independent digital systems, domains, services, and information environments across a distributed architecture.
+          </p>
+
+
+          <div class="section-links">
+
+            <a
+              class="identity-link"
+              href="https://www.nexarium.us/"
+            >
+
+              <span class="link-info">
+                <span class="link-name">
+                  NEXARIUM
+                </span>
+
+                <span class="link-url">
+                  nexarium.us
+                </span>
+              </span>
+
+              <span class="link-arrow">
+                →
+              </span>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SECTION 07
+         ===================================================== -->
+
+    <section
+      class="identity-section"
+      id="section-07"
+    >
+
+      <div class="container section-inner">
+
+
+        <div class="section-number">
+          07 <span>/ 09</span>
+        </div>
+
+
+        <div class="section-content">
+
+
+          <div class="section-kicker">
+            INDEPENDENT PUBLISHING
+          </div>
+
+
+          <h2 class="section-title">
+            Independent <em>Publishing</em>
+          </h2>
+
+
+          <p class="section-description">
+            Independent publishing activity focused on the publication, distribution, and online availability of books and cultural publications.
+          </p>
+
+
+          <div class="section-links">
+
+
+            <a
+              class="identity-link"
+              href="https://delaunaybook.eu/"
+            >
+
+              <span class="link-info">
+
+                <span class="link-name">
+                  Delaunay Book
+                </span>
+
+                <span class="link-url">
+                  delaunaybook.eu
+                </span>
+
+              </span>
+
+              <span class="link-arrow">
+                →
+              </span>
+
+            </a>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SECTION 08
+         ===================================================== -->
+
+    <section
+      class="identity-section"
+      id="section-08"
+    >
+
+      <div class="container section-inner">
+
+
+        <div class="section-number">
+          08 <span>/ 09</span>
+        </div>
+
+
+        <div class="section-content">
+
+
+          <div class="section-kicker">
+            ONLINE BOOKSTORE
+          </div>
+
+
+          <h2 class="section-title">
+            Online <em>Bookstore</em>
+          </h2>
+
+
+          <p class="section-description">
+            Online bookstore offering books and cultural publications from the independent publishing activity.
+          </p>
+
+
+          <div class="section-links">
+
+
+            <a
+              class="identity-link"
+              href="https://books.nvo987.us/"
+            >
+
+              <span class="link-info">
+
+                <span class="link-name">
+                  NVO987 Bookstore
+                </span>
+
+                <span class="link-url">
+                  books.nvo987.us
+                </span>
+
+              </span>
+
+              <span class="link-arrow">
+                →
+              </span>
+
+            </a>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SECTION 09
+         ===================================================== -->
+
+    <section
+      class="identity-section"
+      id="section-09"
+    >
+
+      <div class="container section-inner">
+
+
+        <div class="section-number">
+          09 <span>/ 09</span>
+        </div>
+
+
+        <div class="section-content">
+
+
+          <div class="section-kicker">
+            PUBLICATION
+          </div>
+
+
+          <h2 class="section-title">
+            Delaunay <em>Color</em>
+          </h2>
+
+
+          <p class="section-description">
+            A publication dedicated to Delaunay, color, and the relationship between art, visual culture, and knowledge.
+          </p>
+
+
+          <div class="section-links">
+
+
+            <a
+              class="identity-link"
+              href="https://delaunaycolor.us/"
+            >
+
+              <span class="link-info">
+
+                <span class="link-name">
+                  Delaunay Color
+                </span>
+
+                <span class="link-url">
+                  delaunaycolor.us
+                </span>
+
+              </span>
+
+              <span class="link-arrow">
+                →
+              </span>
+
+            </a>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- =======================================================
+       FOOTER
+       ======================================================= -->
+
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <div class="footer-main">
+
+
+        <div class="footer-brand">
+
+          <h2 class="footer-title">
+            NVO987
+          </h2>
+
+        </div>
+
+
+        <div class="footer-contact">
+
+          <div class="footer-contact-label">
+            Correspondence
+          </div>
+
+          <a
+            class="footer-link"
+            href="mailto:nvo@nvo987.us"
+          >
+            nvo@nvo987.us
+          </a>
+
+        </div>
+
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <span>
+          © 2026 Nicholas Van-Orton
+        </span>
+
+        <a
+          href="https://nvo987.us/legal-information.html"
+        >
+          Legal Information
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+</body>
+</html>
