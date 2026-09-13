@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://identity.nvo987.us/</loc>
+  </url>
+
+  <url>
+    <loc>https://identity.nvo987.us/.well-known/did.json</loc>
+  </url>
+
+  <url>
+    <loc>https://identity.nvo987.us/sha-256-did.txt</loc>
+  </url>
+
+  <url>
+    <loc>https://nvo987.us/</loc>
+  </url>
+
+  <url>
+    <loc>https://nvo987.fr/</loc>
+  </url>
+
+  <url>
+    <loc>https://www.nexarium.us/</loc>
+  </url>
+
+  <url>
+    <loc>https://delaunaybook.eu/</loc>
+  </url>
+
+  <url>
+    <loc>https://books.nvo987.us/</loc>
+  </url>
+
+  <url>
+    <loc>https://delaunaycolor.us/</loc>
+  </url>
+
+</urlset>
