@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "nvo": "https://identity.nvo987.us/context/v1#",
+
+    "name": "http://schema.org/name",
+    "description": "http://schema.org/description",
+    "Person": "http://schema.org/Person",
+    "Organization": "http://schema.org/Organization",
+
+    "brand": "nvo:brand",
+    "organization": "nvo:organization",
+    "organizationType": "nvo:organizationType",
+    "ecosystem": "nvo:ecosystem",
+    "jurisdiction": "nvo:jurisdiction",
+    "headquarters": "nvo:headquarters",
+    "country": "nvo:country",
+
+    "created": "nvo:created",
+    "updated": "nvo:updated",
+    "versionId": "nvo:versionId",
+
+    "softwareHeritage": "nvo:softwareHeritage",
+    "researchProfiles": "nvo:researchProfiles",
+    "web3Identities": "nvo:web3Identities",
+
+    "role": "nvo:role",
+    "identifier": "nvo:identifier",
+    "identifiers": "nvo:identifiers",
+    "sameAs": "http://schema.org/sameAs",
+    "memberOf": "http://schema.org/memberOf",
+    "subjectOf": "http://schema.org/subjectOf",
+
+    "DID": "nvo:DID",
+    "ORCID": "nvo:ORCID",
+    "ISNI": "nvo:ISNI",
+
+    "CredentialRepository": "nvo:CredentialRepository",
+
+    "IdentityService": "nvo:IdentityService",
+    "PersonService": "nvo:PersonService",
+    "KnowledgeService": "nvo:KnowledgeService",
+    "SoftwareRepositoryService": "nvo:SoftwareRepositoryService",
+    "ResearchPublicationService": "nvo:ResearchPublicationService",
+    "BookService": "nvo:BookService",
+    "BookstoreService": "nvo:BookstoreService",
+    "ArchiveService": "nvo:ArchiveService",
+    "SoftwareService": "nvo:SoftwareService",
+    "CryptographyService": "nvo:CryptographyService",
+    "MediaService": "nvo:MediaService",
+    "CultureService": "nvo:CultureService",
+    "EducationService": "nvo:EducationService",
+    "SocialService": "nvo:SocialService",
+    "PublicationService": "nvo:PublicationService",
+    "CivilizationalResearchService": "nvo:CivilizationalResearchService",
+    "MachineCoordinationService": "nvo:MachineCoordinationService",
+    "VolunteerService": "nvo:VolunteerService",
+    "ImageArchiveService": "nvo:ImageArchiveService",
+    "CredentialService": "nvo:CredentialService"
+  }
+}
