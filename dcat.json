@@ -1,0 +1,53 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/dcat.jsonld",
+    "https://identity.nvo987.us/context/v1"
+  ],
+
+  "@id": "https://identity.nvo987.us/dcat.json",
+  "@type": "Catalog",
+
+  "title": "NVO987 Identity Infrastructure Catalog",
+  "description": "Catalog of identity, research, publication, software, cryptographic, archival, and decentralized web resources associated with NVO987.",
+
+  "publisher": {
+    "@id": "https://nvo987.us/#person",
+    "@type": "Person",
+    "name": "Nicholas Van-Orton"
+  },
+
+  "homepage": {
+    "@id": "https://identity.nvo987.us/"
+  },
+
+  "identifier": "did:web:identity.nvo987.us",
+
+  "dataset": [
+    {
+      "@id": "https://identity.nvo987.us/.well-known/did.json",
+      "@type": "Dataset",
+      "title": "NVO987 DID Document",
+      "description": "Machine-readable decentralized identity document.",
+      "accessURL": "https://identity.nvo987.us/.well-known/did.json"
+    },
+    {
+      "@id": "https://identity.nvo987.us/identity/person.json",
+      "@type": "Dataset",
+      "title": "Nicholas Van-Orton Person Record",
+      "description": "JSON-LD description of the Person identified by https://nvo987.us/#person.",
+      "accessURL": "https://identity.nvo987.us/identity/person.json"
+    },
+    {
+      "@id": "https://identity.nvo987.us/did-metadata.json",
+      "@type": "Dataset",
+      "title": "DID Metadata",
+      "accessURL": "https://identity.nvo987.us/did-metadata.json"
+    },
+    {
+      "@id": "https://identity.nvo987.us/credentials/",
+      "@type": "Dataset",
+      "title": "Identity Credentials",
+      "accessURL": "https://identity.nvo987.us/credentials/"
+    }
+  ]
+}
