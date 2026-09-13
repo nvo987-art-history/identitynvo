@@ -1,0 +1,82 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://identity.nvo987.us/context/v1"
+  ],
+
+  "id": "https://nvo987.fr/",
+
+  "type": "Organization",
+
+  "name": "NVO987 – Culture Visuelle Moderne et Contemporaine",
+
+  "shortName": "NVO987",
+
+  "organizationType": "French cultural and research association",
+
+  "description": "NVO987 is a French cultural and research association working with cultural, artistic, educational, research, publishing, and nonprofit projects.",
+
+  "jurisdiction": "France",
+
+  "country": "France",
+
+  "headquarters": "Paris",
+
+  "website": "https://nvo987.fr/",
+
+  "ecosystem": "NEXARIUM",
+
+  "directorOrRepresentative": {
+    "id": "did:web:identity.nvo987.us",
+    "name": "Nicholas Van-Orton"
+  },
+
+  "identifiers": {
+    "organizationISNI": "https://isni.org/isni/0000000530813464",
+    "frenchRegistry": "https://annuaire-entreprises.data.gouv.fr/entreprise/nvo987-culture-visuelle-moderne-et-contemporaine-102148160"
+  },
+
+  "officialDocuments": [
+    "https://nvo987.fr/documents/sirene.pdf",
+    "https://nvo987.fr/documents/JOAFE_PDF_Unitaire_20260010_01704.pdf",
+    "https://nvo987.fr/documents/NVO987_Association_Presentation_FR.pdf",
+    "https://nvo987.fr/documents/nicholas-van-orton_20260628115310.pdf"
+  ],
+
+  "services": [
+    {
+      "type": "KnowledgeService",
+      "serviceEndpoint": "https://recherche.nvo987.fr"
+    },
+    {
+      "type": "EducationService",
+      "serviceEndpoint": "https://culturevisuelle.nvo987.fr"
+    },
+    {
+      "type": "CivilizationalResearchService",
+      "serviceEndpoint": "https://cir.nvo987.fr"
+    },
+    {
+      "type": "VolunteerService",
+      "serviceEndpoint": "https://benevoles.nvo987.fr"
+    },
+    {
+      "type": "ImageArchiveService",
+      "serviceEndpoint": "https://images.nvo987.fr"
+    },
+    {
+      "type": "TransparencyService",
+      "serviceEndpoint": "https://valoriax.nvo987.fr"
+    }
+  ],
+
+  "publishing": [
+    "https://delaunaybook.eu/",
+    "https://books.nvo987.us/",
+    "https://delaunaycolor.us/"
+  ],
+
+  "identity": "did:web:identity.nvo987.us",
+
+  "updated": "2026-09-12T14:52:00Z"
+}
