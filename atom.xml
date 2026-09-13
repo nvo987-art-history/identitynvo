@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>NVO987 Identity</title>
+  <subtitle>Identity and decentralized digital presence of NVO987 and Nicholas Van-Orton.</subtitle>
+  <id>https://identity.nvo987.us/</id>
+  <link href="https://identity.nvo987.us/" rel="alternate"/>
+  <link href="https://identity.nvo987.us/atom.xml" rel="self"/>
+  <updated>2026-01-01T00:00:00Z</updated>
+  <author>
+    <name>Nicholas Van-Orton</name>
+  </author>
+
+  <entry>
+    <title>NVO987 Identity</title>
+    <id>https://identity.nvo987.us/</id>
+    <link href="https://identity.nvo987.us/" rel="alternate"/>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Identity and decentralized digital presence of NVO987 and Nicholas Van-Orton.</summary>
+  </entry>
+</feed>
