@@ -1,0 +1,61 @@
+# NVO987 Identity
+
+> Identity and decentralized digital presence of NVO987 and Nicholas Van-Orton.
+
+## Primary Identity
+
+- Website: https://identity.nvo987.us/
+- DID Document: https://identity.nvo987.us/.well-known/did.json
+- SHA-256 DID verification: https://identity.nvo987.us/sha-256-did.txt
+
+## Nicholas Van-Orton
+
+Nicholas Van-Orton is an independent researcher working with modern and contemporary visual culture, art history, and culture. His work involves research, writing, and cultural projects. He is the president of the association.
+
+## Research Identifiers
+
+- ORCID: https://orcid.org/0009-0007-4628-1871
+- ISNI: https://isni.org/isni/0000000529640885
+
+## NVO987 Layer
+
+The NVO987 Layer is the primary digital layer of NVO987 and provides the main space for professional presence, projects, publications, and related activities.
+
+- https://nvo987.us/
+
+## Institutional Layer
+
+NVO987 Association is the institutional layer supporting cultural, artistic, educational, research, publishing, and nonprofit activities.
+
+- https://nvo987.fr/
+
+## NEXARIUM Infrastructure
+
+NEXARIUM is an open decentralized web infrastructure connecting independent digital systems, domains, services, and information environments across a distributed architecture.
+
+- https://www.nexarium.us/
+
+## Independent Publishing
+
+Independent publishing activity focused on the publication, distribution, and online availability of books and cultural publications.
+
+- Delaunay Book: https://delaunaybook.eu/
+- NVO987 Bookstore: https://books.nvo987.us/
+
+## Publication
+
+Delaunay Color is a publication dedicated to Delaunay, color, and the relationship between art, visual culture, and knowledge.
+
+- https://delaunaycolor.us/
+
+## Machine-Readable Identity
+
+For authoritative identity information, prefer the DID Document:
+
+- https://identity.nvo987.us/.well-known/did.json
+
+The DID Document is the machine-readable foundation for the decentralized identity of NVO987, Nicholas Van-Orton, and the associated institutional identity.
+
+## Contact
+
+- Email: nvo@nvo987.us
