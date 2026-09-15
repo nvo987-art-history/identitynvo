@@ -1437,7 +1437,196 @@
   }
 
   }
+/* =========================================================
+   VERIFICATION METHODS
+   ========================================================= */
 
+.verification-methods {
+  margin-top: 48px;
+
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.verification-header {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 72px;
+
+  gap: 25px;
+}
+
+.verification-label {
+  color: var(--orange);
+
+  font-size: 12px;
+  font-weight: 700;
+
+  letter-spacing: .2em;
+
+  text-transform: uppercase;
+}
+
+.verification-format {
+  color: var(--muted);
+
+  font-size: 11px;
+  font-weight: 600;
+
+  letter-spacing: .12em;
+
+  text-transform: uppercase;
+}
+
+
+/* ITEM */
+
+.verification-item {
+  border-top: 1px solid var(--line-light);
+}
+
+.verification-item-header {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 68px;
+
+  gap: 25px;
+}
+
+.verification-type {
+  font-family: var(--serif);
+
+  font-size: 25px;
+
+  letter-spacing: -.01em;
+}
+
+.verification-protocol {
+  color: var(--muted);
+
+  font-size: 11px;
+  font-weight: 600;
+
+  letter-spacing: .13em;
+
+  text-transform: uppercase;
+}
+
+
+/* DATA */
+
+.verification-data {
+  border-top: 1px solid var(--line-light);
+}
+
+.verification-row {
+  display: grid;
+
+  grid-template-columns: 190px 1fr;
+
+  gap: 30px;
+
+  padding: 17px 0;
+
+  border-bottom: 1px solid var(--line-light);
+}
+
+.verification-row:last-child {
+  border-bottom: 0;
+}
+
+.verification-key {
+  color: var(--muted);
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: .12em;
+
+  text-transform: uppercase;
+}
+
+.verification-value {
+  color: var(--ink-soft);
+
+  font-size: 15px;
+
+  line-height: 1.6;
+
+  overflow-wrap: anywhere;
+}
+
+.verification-mono {
+  font-family:
+    "SFMono-Regular",
+    "Cascadia Code",
+    "Roboto Mono",
+    Consolas,
+    monospace;
+
+  font-size: 14px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 720px) {
+
+  .verification-methods {
+    margin-top: 38px;
+  }
+
+  .verification-header {
+    min-height: 62px;
+
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    gap: 7px;
+  }
+
+  .verification-item-header {
+    min-height: 62px;
+
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    gap: 5px;
+  }
+
+  .verification-type {
+    font-size: 23px;
+  }
+
+  .verification-row {
+    grid-template-columns: 1fr;
+
+    gap: 7px;
+
+    padding: 15px 0;
+  }
+
+  .verification-value {
+    font-size: 14px;
+  }
+
+  .verification-mono {
+    font-size: 13px;
+  }
+
+}
     
   </style>
   
