@@ -1435,9 +1435,9 @@
 
     gap: 8px;
   }
-
   }
-/* =========================================================
+
+  /* =========================================================
    VERIFICATION METHODS
    ========================================================= */
 
@@ -1482,11 +1482,24 @@
 }
 
 
-/* ITEM */
+/* =========================================================
+   VERIFICATION ITEM
+   ========================================================= */
 
 .verification-item {
+  padding: 28px 0 34px;
+
   border-top: 1px solid var(--line-light);
 }
+
+/* Additional separation between verification methods */
+
+.verification-item + .verification-item {
+  padding-top: 42px;
+}
+
+
+/* ITEM HEADER */
 
 .verification-item-header {
   display: flex;
@@ -1519,7 +1532,9 @@
 }
 
 
-/* DATA */
+/* =========================================================
+   DATA
+   ========================================================= */
 
 .verification-data {
   border-top: 1px solid var(--line-light);
@@ -1574,7 +1589,9 @@
 }
 
 
-/* MOBILE */
+/* =========================================================
+   MOBILE
+   ========================================================= */
 
 @media (max-width: 720px) {
 
@@ -1592,6 +1609,14 @@
     justify-content: center;
 
     gap: 7px;
+  }
+
+  .verification-item {
+    padding: 24px 0 30px;
+  }
+
+  .verification-item + .verification-item {
+    padding-top: 36px;
   }
 
   .verification-item-header {
@@ -1626,7 +1651,8 @@
     font-size: 13px;
   }
 
-}
+    }
+
     
   </style>
   
