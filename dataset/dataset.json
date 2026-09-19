@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://identity.nvo987.us/dataset/#dataset",
+  "name": "NVO987 Decentralized Identity Dataset",
+  "description": "A machine-readable identity, verification, and cryptographic dataset associated with Nicholas Van-Orton and NVO987.",
+  "url": "https://identity.nvo987.us/dataset/",
+  "identifier": [
+    "https://identity.nvo987.us/dataset/",
+    "did:web:identity.nvo987.us"
+  ],
+  "sameAs": [
+    "https://identity.nvo987.us/.well-known/did.json"
+  ],
+  "keywords": [
+    "Decentralized Identity",
+    "DID Document",
+    "W3C DID",
+    "Ed25519",
+    "Secp256k1",
+    "Cryptography",
+    "Nicholas Van-Orton",
+    "NVO987"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "inLanguage": "en",
+  "creator": {
+    "@type": "Person",
+    "@id": "https://identity.nvo987.us/#person",
+    "name": "Nicholas Van-Orton",
+    "jobTitle": "Independent Researcher & Association President",
+    "url": "https://nvo987.us",
+    "email": "mailto:nvo@nvo987.us",
+    "sameAs": [
+      "https://orcid.org/0009-0007-4628-1871",
+      "https://isni.org/isni/0000000529640885",
+      "https://social.media.nvo987.fr/",
+      "https://identity.nvo987.us/"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://nvo987.fr/#organization",
+    "name": "NVO987 - Culture Visuelle Moderne et Contemporaine",
+    "url": "https://nvo987.fr"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "W3C DID Document (JSON)",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://identity.nvo987.us/.well-known/did.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "SHA-256 Hash Verification File",
+      "encodingFormat": "text/plain",
+      "contentUrl": "https://identity.nvo987.us/sha-256-did.txt"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Ed25519 Public Verification Key (PEM)",
+      "encodingFormat": "application/x-pem-file",
+      "contentUrl": "https://identity.nvo987.us/public-key.pem"
+    }
+  ],
+  "subjectOf": [
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://nvo987.us/documents/nicholas-van-orton-cv-en.pdf#document",
+      "name": "Nicholas Van-Orton — Professional Profile & Child Development CV",
+      "description": "Professional background and interdisciplinary studies in children's development, education, rights, inclusion, and support.",
+      "url": "https://nvo987.us/documents/nicholas-van-orton-cv-en.pdf",
+      "encodingFormat": "application/pdf"
+    },
+    {
+      "@type": "DigitalDocument",
+      "@id": "https://nvo987.us/documents/nicholas-van-orton-google-en.pdf#document",
+      "name": "Nicholas Van-Orton — Professional Education & Development",
+      "description": "Certificates and specializations in AI, data analysis, cybersecurity, digital technologies, project management, and cloud technologies.",
+      "url": "https://nvo987.us/documents/nicholas-van-orton-google-en.pdf",
+      "encodingFormat": "application/pdf"
+    }
+  ]
+}
