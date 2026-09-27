@@ -22,7 +22,7 @@
   "country": "France",
 
   "created": "2026-06-28T11:53:10Z",
-  "updated": "2026-09-12T14:52:00Z",
+  "updated": "2026-09-27T14:52:00Z",
   "versionId": "1.0.0",
 
   "alsoKnownAs": [
@@ -58,15 +58,12 @@
 
   "https://nexarium.us",
   "https://www.nexarium.us",
-  "https://mcp.nexarium.us",
-
+  "https://mcp.nvo987.fr",
   "https://nvo987.fr",
   "https://benevoles.nvo987.fr",
   "https://images.nvo987.fr",
   "https://valoriax.nvo987.fr",
   "https://nexarium.nvo987.fr",
-
-  "https://didweb3.org",
   "https://nvo987.ai.in",
   "https://did.ai.in",
   "https://kellycode.us",
@@ -371,7 +368,7 @@
     {
 	  "id": "#verify-mail-app",
 	  "type": "SoftwareService",
-	  "serviceEndpoint": "https://nexarium.us"
+	  "serviceEndpoint": "https://startup-layer.nvo987.us/"
 	},
     {
       "id": "#sha3",
@@ -425,7 +422,7 @@
     {
       "id": "#mcp",
       "type": "MachineCoordinationService",
-      "serviceEndpoint": "https://mcp.nexarium.us"
+      "serviceEndpoint": "https://mcp.nvo987.fr"
     },
     {
       "id": "#benevoles",
