@@ -22,7 +22,7 @@
   "country": "France",
 
   "created": "2026-06-28T11:53:10Z",
-  "updated": "2026-09-27T14:52:00Z",
+  "updated": "2026-10-24T14:52:00Z",
   "versionId": "1.0.0",
 
   "alsoKnownAs": [
@@ -41,6 +41,8 @@
   "https://archive.nvo987.us",
   "https://identity.nvo987.us",
   "https://sha512.nvo987.us",
+  "https://institution-layer.nvo987.fr",
+  "https://civilisation-layer.fr",
   "https://sha.nvo987.us",
   "https://orcid.nvo987.us",
   "https://books.nvo987.us",
@@ -56,7 +58,6 @@
   "https://musees.nvo987.eu",
   "https://unesco-fr.nvo987.eu",
   "https://nexarium.us",
-  "https://www.nexarium.us",
   "https://mcp.nvo987.fr",
   "https://nvo987.fr",
   "https://benevoles.nvo987.fr",
@@ -75,6 +76,8 @@
   "https://culture.org.im",
   "https://paris.org.im",
   "https://startup.com.im",
+  "https://archives.nvo987.fr",
+  "https://paris.org.in",
   "https://delaunaycolor.us"
 ], 
   	
