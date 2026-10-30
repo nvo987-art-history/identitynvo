@@ -1,3 +1,4 @@
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -42,13 +43,15 @@
         "https://qr.nvo987.us",
         "https://childcolor.eu",
         "https://delaunaycolor.us",
-        "https://didweb3.org",
+        "https://startup.com.im",
+        "https://culture.org.im", 
         "https://nvo987.ai.in",
         "https://did.ai.in",
         "https://kellycode.us",
         "https://identity.ai.in",
         "https://web3.internet.in",
         "https://nvo987.in",
+        "https://social-exclusion-of-children.eu", 
         "https://delaunaybook.us"
       ],
       "brand": {
@@ -827,3 +830,4 @@
     }
   ]
 }
+</script>
